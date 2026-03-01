@@ -64,13 +64,13 @@ frontend/
 ### No env variables needed (config in code)
 Backend URL is hardcoded in [src/services/api.js](src/services/api.js):
 ```javascript
-const BACKEND_URL = 'http://127.0.0.1:8000';
+const BACKEND_URL = 'http://aiobjectshree2026.southeastasia.azurecontainer.io:8000';
 ```
 
 ### To change backend endpoint:
 Edit [src/services/api.js](src/services/api.js) line 3:
 ```javascript
-const BACKEND_URL = 'https://your-backend-domain.com';
+const BACKEND_URL = 'http://aiobjectshree2026.southeastasia.azurecontainer.io:8000';
 ```
 
 ---
@@ -281,7 +281,7 @@ const handleLogout = () => {
 ### Change Backend URL
 **File:** `src/services/api.js` line 3
 ```javascript
-const BACKEND_URL = 'https://api.yourdomain.com';
+const BACKEND_URL = 'http://aiobjectshree2026.southeastasia.azurecontainer.io:8000';
 ```
 
 ### Change Colors
@@ -384,7 +384,7 @@ Browser DevTools → Console:
 ### Test Backend Connection
 ```javascript
 // In browser console
-fetch('http://127.0.0.1:8000/')
+fetch('http://aiobjectshree2026.southeastasia.azurecontainer.io:8000/')
   .then(r => r.json())
   .then(data => console.log(data));
 ```
